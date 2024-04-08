@@ -1,4 +1,4 @@
-import {Sidebar} from "@/app/components";
+import {Sidebar} from "../../components";
 
 export default function Layout(
     {children}: {
@@ -11,7 +11,7 @@ export default function Layout(
 
                 <Sidebar />
 
-                <div className="p-2 w-full text-slate-900">
+                <div className="w-full text-slate-900">
                     {children}
                 </div>
             </div>
